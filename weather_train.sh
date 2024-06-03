@@ -17,7 +17,7 @@ module load python/3.11.5 scipy-stack
 ENVDIR=/tmp/$RANDOM
 virtualenv --no-download $ENVDIR
 source $ENVDIR/bin/activate
-
+pip install --no-index --upgrade pip
 pip install --no-index scikit_learn==1.3.1
 pip install --no-index seaborn==0.13.2
 #python --version
