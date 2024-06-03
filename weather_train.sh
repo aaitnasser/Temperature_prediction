@@ -4,7 +4,7 @@
 #SBATCH --mem=16G
 #SBATCH --time=0-1:00:00
 #SBATCH --output=%N-%j.out
-#SBATCH --mail-user=adnane.nasser@ace-net.ca
+#SBATCH --mail-user=your_email_address
 #SBATCH --mail-type=ALL
 
 echo "Current working directory: `pwd`"
